@@ -1,0 +1,14 @@
+.colorNav {
+  background-color: rgba(44, 44, 44, 0.4);
+  /* opacity: 0.5; see the background through the hbox */
+}
+
+.colorNav a {
+  color: white;
+}
+
+.toggle {
+  display: flex !important;
+  justify-content: left;
+  align-self: flex-end;
+}
