@@ -9,30 +9,53 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* 100% of the viewport height */
+  height: 80%;
 }
 
 .mainAbout {
-  /* color: white;
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%; */
+  color: white;
   text-align: center;
   padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f0f0f0;
-  width: 80%; /* Adjust the width as needed for your design */
-  max-width: 600px; /* Limit the maximum width */
-  background-color: rgba(44, 44, 44, 0.4);
+  border: #ccc;
+  border-radius: 0.5%;
+  width: 50%; /* Adjust the width as needed for your design */
+  max-width: 600px;
+  background-color: rgba(238, 238, 238, 0.4);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mainAbout h1 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  border-right: 0.15em solid #18bdec;
+  display: inline-block;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: blink 1s steps(1) infinite;
+  animation: typing 5s steps(30) infinite alternate;
 }
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
-  .box {
+  .mainAbout {
     width: 90%; /* Adjust the width for smaller screens */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
   }
 }

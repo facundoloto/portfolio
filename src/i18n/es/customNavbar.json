@@ -1,9 +1,8 @@
 {
-    "translations": {
-        "header": "Desarollador Full-Stack",
-        "about": "Sobre Mi",
-        "experience": "Mis Experiencias",
-        "portfolio": "Projectos",
-        "contact": "Mis Redes Sociales"
-    }
+  "translations": {
+    "about": "Sobre Mi",
+    "experience": "Experiencias",
+    "portfolio": "Projectos",
+    "contact": "Contacto"
+  }
 }

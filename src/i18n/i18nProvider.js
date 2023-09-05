@@ -4,9 +4,11 @@ import { initReactI18next } from "react-i18next";
 // ES
 import customNavbar_es from "./es/customNavbar.json";
 import about_es from "./es/about.json";
+import header_es from "./es/header.json";
 // EN
 import customNavbar_en from "./en/customNavbar.json";
 import about_en from "./en/about.json";
+import header_en from "./en/header.json";
 
 // const lenguageSelect = () => {
 //   return useLanguageStore((state) => state.language);
@@ -18,10 +20,12 @@ const resources = {
   es: {
     customNavbar: customNavbar_es,
     about: about_es,
+    header: header_es,
   },
   en: {
     customNavbar: customNavbar_en,
     about: about_en,
+    header: header_en,
   },
 };
 

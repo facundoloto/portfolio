@@ -7,15 +7,11 @@ import Navbar from "react-bootstrap/Navbar";
 import navStyle from "./navbar.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function CollapsibleExample() {
-  // const { setLanguage } = useLanguageStore();
+export default function NavBar() {
   const { t, i18n } = useTranslation("customNavbar");
-  // const handleLanguageChange = (newLanguage) => {
-  //   setLanguage(newLanguage);
-  // };
 
   const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng); // Cambia el idioma
+    i18n.changeLanguage(lng); // Change language
   };
 
   return (
@@ -58,5 +54,3 @@ function CollapsibleExample() {
     </Navbar>
   );
 }
-
-export default CollapsibleExample;
