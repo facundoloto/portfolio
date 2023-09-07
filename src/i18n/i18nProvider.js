@@ -6,16 +6,16 @@ import customNavbar_es from "./es/customNavbar.json";
 import about_es from "./es/about.json";
 import header_es from "./es/header.json";
 import resume_es from "./es/resume.json";
+import portfolio_es from "./es/portfolio.json";
+
 // EN
 import customNavbar_en from "./en/customNavbar.json";
 import about_en from "./en/about.json";
 import header_en from "./en/header.json";
 import resume_en from "./en/resume.json";
-// const lenguageSelect = () => {
-//   return useLanguageStore((state) => state.language);
-// };
+import portfolio_en from "./en/portfolio.json";
 
-// const len = lenguageSelect();
+
 
 const resources = {
   es: {
@@ -23,12 +23,14 @@ const resources = {
     about: about_es,
     header: header_es,
     resume: resume_es,
+    portfolio: portfolio_es,
   },
   en: {
     customNavbar: customNavbar_en,
     about: about_en,
     header: header_en,
     resume: resume_en,
+    portfolio: portfolio_en,
   },
 };
 

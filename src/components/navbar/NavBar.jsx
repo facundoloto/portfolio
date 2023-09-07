@@ -31,7 +31,6 @@ export default function NavBar() {
             </Nav.Link>
             <Nav.Link href="#skill">{t("translations.skill")}</Nav.Link>
             <Nav.Link href="#portfolio">{t("translations.portfolio")}</Nav.Link>
-            <Nav.Link href="#contact">{t("translations.contact")}</Nav.Link>
           </Nav>
           <Nav>
             <Stack direction="horizontal" gap={3}>

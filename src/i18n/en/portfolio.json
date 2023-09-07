@@ -1,8 +1,6 @@
 {
     "translations": {
-        "welcome": "¡Welcome!",
-        "gmp": "NutriPharCo is a biotech company born to <strong>provide active pharmaceutical ingredients (APIs) supply solutions</strong> for the global pharmaceutical, cosmetic and food industries. We offer products complying with the highest and most prestigious quality standards worldwide, <strong>EU GMP.</strong>",
-        "description": "Our hybrid society aims to merge the agricultural industry in one of the most fertile sectors for cannabis cultivation, with our state-of-the-art extraction plant and laboratory, in which we will have a clean and efficient process.",
-        "more": "Learn more."
+        "title": "Portfolio",
+        "pokeApi": "AppWeb that first shows random pokemons and then the user can filter by the regions."
     }
 }

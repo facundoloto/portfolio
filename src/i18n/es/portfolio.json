@@ -1,0 +1,6 @@
+{
+    "translations": {
+        "title": "Proyectos",
+        "pokeApi": "AppWeb que muestra pokemones al azar y luego el usuario puede filtrar por las regiones."
+    }
+}

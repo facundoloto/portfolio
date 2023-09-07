@@ -4,6 +4,7 @@ import profile from "../../assets/image/profile1.jpg"
 import aboutStyle from './about.module.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "animate.css";
+
 export default function About() {
     const { t, i18n } = useTranslation("about");
 
