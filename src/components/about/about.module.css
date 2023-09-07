@@ -1,0 +1,109 @@
+.containerAbout {
+    width: 100%;
+    height: 80vh;
+    /* overflow: hidden; */
+}
+
+
+.about {
+    background-color: rgba(21, 21, 21, .7);
+    border: .5px solid rgba(255, 0, 0, 0.664);
+    border-radius: 64px;
+    -webkit-border-radius: 64px;
+    -moz-border-radius: 64px;
+    -ms-border-radius: 64px;
+    -o-border-radius: 64px;
+    padding: 60px 50px;
+    /* padding: 60px 100px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.profileAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.profilePicture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profilePicture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.profileInformation {
+
+    width: 100%;
+    /* Set the width to 50% for equal width columns */
+
+}
+
+/* Style for the lists */
+.listOne ul {
+    list-style-type: none;
+    /* Remove default list bullets */
+    padding: 0;
+    /* Remove default list padding */
+}
+
+.listOne li {
+    margin: 5px 0;
+    /* Add some spacing between list items */
+}
+
+@media (max-width:768px) {
+    .containerAbout {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .profileImg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        float: none;
+    }
+
+    .profileImg img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        margin-right: 0;
+        float: none;
+    }
+
+    .profileAbout {
+        width: 80%;
+    }
+}
