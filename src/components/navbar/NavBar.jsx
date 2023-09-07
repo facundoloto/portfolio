@@ -26,9 +26,10 @@ export default function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#about">{t("translations.about")}</Nav.Link>
-            <Nav.Link href="#experience">
+            <Nav.Link href="#resume">
               {t("translations.experience")}
             </Nav.Link>
+            <Nav.Link href="#skill">{t("translations.skill")}</Nav.Link>
             <Nav.Link href="#portfolio">{t("translations.portfolio")}</Nav.Link>
             <Nav.Link href="#contact">{t("translations.contact")}</Nav.Link>
           </Nav>

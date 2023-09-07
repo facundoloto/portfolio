@@ -5,11 +5,12 @@ import { initReactI18next } from "react-i18next";
 import customNavbar_es from "./es/customNavbar.json";
 import about_es from "./es/about.json";
 import header_es from "./es/header.json";
+import resume_es from "./es/resume.json";
 // EN
 import customNavbar_en from "./en/customNavbar.json";
 import about_en from "./en/about.json";
 import header_en from "./en/header.json";
-
+import resume_en from "./en/resume.json";
 // const lenguageSelect = () => {
 //   return useLanguageStore((state) => state.language);
 // };
@@ -21,11 +22,13 @@ const resources = {
     customNavbar: customNavbar_es,
     about: about_es,
     header: header_es,
+    resume: resume_es,
   },
   en: {
     customNavbar: customNavbar_en,
     about: about_en,
     header: header_en,
+    resume: resume_en,
   },
 };
 

@@ -1,5 +1,9 @@
 {
     "translations": {
-        "aboutMe":"Soy un desarrollador full-stack en javascript, uso react y node y tengo experiencia trabajando con ellos. Actualmente estoy aprendiendo java con spring boot, soy alguien a quien le encanta programar y encontrar soluciones para cada problema. que pueda tener, sobre mi personalidad, soy responsable, dedicada y amigable, y si alguien necesita ayuda, haré todo lo posible para ayudarla."
+        "title": "Sobre mi",
+        "aboutMe": "Soy un desarrollador full-stack en javascript, uso react y node y tengo experiencia trabajando con ellos. Actualmente estoy aprendiendo java con spring boot, soy alguien a quien le encanta programar y encontrar soluciones para cada problema. que pueda tener, sobre mi personalidad, soy responsable, dedicada y amigable, y si alguien necesita ayuda, haré todo lo posible para ayudarla.",
+        "location": "Localidad",
+        "age": "Edad",
+        "interest": "Intereses"
     }
 }

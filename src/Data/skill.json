@@ -1,0 +1,36 @@
+{
+    "skill": [
+        {
+            "image": "src/assets/image/js.png",
+            "title": "Javascript"
+        },
+        {
+            "image": "src/assets/image/nodejs.png",
+            "title": "node.js"
+        },
+        {
+            "image": "src/assets/image/react-icon.png",
+            "title": "react.js"
+        },
+        {
+            "image": "src/assets/image/mysql.png",
+            "title": "MySQL"
+        },
+        {
+            "image": "src/assets/image/spring.png",
+            "title": "spring boot"
+        },
+        {
+            "image": "src/assets/image/ts.png",
+            "title": "typescript"
+        },
+        {
+            "image": "src/assets/image/mocha.png",
+            "title": "testing mocha.js"
+        },
+        {
+            "image": "src/assets/image/java.png",
+            "title": "java"
+        }
+    ]
+}

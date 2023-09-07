@@ -1,8 +1,11 @@
 .bg {
   width: 100%;
   height: 100vh;
-  background-image: url("src/assets/header-background.webp");
+  /* background-image: url("./../../assets/banner-bg.png") top center no-repeat; */
+  /* background-size: cover; */
+  background-image: url("src/assets/banner-bg.png");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .mainContain {
@@ -13,35 +16,117 @@
 }
 
 .mainAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   text-align: center;
   padding: 20px;
   border: #ccc;
   border-radius: 0.5%;
-  width: 50%; /* Adjust the width as needed for your design */
+  width: 50%;
+  /* Adjust the width as needed for your design */
   max-width: 600px;
-  background-color: rgba(238, 238, 238, 0.4);
+  /* background-color: rgba(122, 122, 122, 0.4); */
   overflow: hidden;
   white-space: nowrap;
 }
 
-.mainAbout h1 {
-  font-size: 2rem;
-  font-style: normal;
+.heroImg {
+  width: 50%;
+  animation: updown 3s linear infinite;
+  -webkit-animation: updown 3s linear infinite;
+}
+
+.heroImg img {
+  width: 80%;
+  height: 80%;
+}
+
+.title {
+  width: 100%;
+}
+
+.title h1 {
   font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
   border-right: 0.15em solid #18bdec;
   display: inline-block;
-  width: 0;
   overflow: hidden;
   white-space: nowrap;
-  animation: blink 1s steps(1) infinite;
-  animation: typing 5s steps(30) infinite alternate;
+  animation: blink 1s steps(40) infinite;
+  animation: typing 3s steps(40) infinite alternate;
+}
+
+.scrollBtn {
+  width: 100%;
+}
+
+.scrollBtn button {
+  display: flex;
+  /*centrar imagen */
+  margin: 0 auto;
+  background: none;
+  border: none;
+  animation: updown 3s linear infinite;
+  -webkit-animation: updown 3s linear infinite;
 }
 
 /* Media Query for Responsive Design */
-@media (max-width: 768px) {
+
+@media (max-width: 900px) {
+  .mainContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
   .mainAbout {
-    width: 90%; /* Adjust the width for smaller screens */
+    width: 100%;
+  }
+
+  .scrollBtn {
+    width: 100%;
+    height: 0;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .title h1 {
+    font-size: 2.2rem;
+  }
+
+  .title h4 {
+    font-size: 1.3rem;
+  }
+
+  .mainAbout {
+    width: 90%;
+    /* Adjust the width for smaller screens */
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-50%);
+    opacity: 1;
+
+  }
+
+  50% {
+    -webkit-transform: translateY(10%);
+    opacity: .5;
+  }
+
+  100% {
+    -webkit-transform: translateY(-50%);
+    opacity: 1;
   }
 }
 
@@ -55,7 +140,34 @@
   from {
     width: 100%;
   }
+
   to {
     width: 0;
+  }
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
   }
 }

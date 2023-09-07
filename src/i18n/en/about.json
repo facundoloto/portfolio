@@ -1,5 +1,9 @@
 {
   "translations": {
-    "aboutMe": "I'm a developer full-stack in javascript , I use react and node and I've got experience work with them also currently I'm learning java with spring boot , I'm some one that love programming and find solutions for each problem that I might have, about my personality I'm resonsible and dedicated and friendly who if some one need help I'll try help with my best."
+    "title": "About me",
+    "aboutMe": "I'm a developer full-stack in javascript , I use react and node and I've got experience work with them also currently I'm learning java with spring boot , I'm some one that love programming and find solutions for each problem that I might have, about my personality I'm resonsible and dedicated and friendly who if some one need help I'll try help with my best.",
+    "location": "Location",
+    "age": "Age",
+    "interest": "Interests"
   }
 }
