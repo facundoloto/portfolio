@@ -9,10 +9,10 @@ export default function About() {
     const { t, i18n } = useTranslation("about");
 
     return (
-        <div className={aboutStyle.containerAbout + " text-light"} data-aos="fade-right" data-aos-duration="1500">
+        <div className={aboutStyle.containerAbout + " text-light"} >
             <h1 className="text-center" id="about">{t("translations.title")}</h1>
 
-            <div className={aboutStyle.about} data-aos="fade-right" data-aos-duration="1500" >
+            <div className={aboutStyle.about + " " + aboutStyle.border}  >
 
                 <div className={aboutStyle.profileAbout}>
                     <div className={aboutStyle.profileContent}>

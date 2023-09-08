@@ -10,6 +10,8 @@ const About = lazy(() => import("./components/about/About"));
 const Resume = lazy(() => import("./components/resume/Resume"));
 const Skill = lazy(() => import("./components/skills/Skill"));
 const Project = lazy(() => import("./components/project/Projects"));
+const Footer = lazy(() => import("./components/footer/Footer"));
+
 
 function App() {
   const { setLanguage } = useLanguageStore();
@@ -24,6 +26,7 @@ function App() {
         <Resume />
         <Skill />
         <Project />
+        <Footer />
       </I18nextProvider>
     </>
   );

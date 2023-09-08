@@ -19,7 +19,7 @@ export default function NavBar() {
       collapseOnSelect
       expand="sm"
       data-bs-theme="dark"
-      className={navStyle.colorNav}
+      className={navStyle.colorNav + " " + "fixed-top"}
     >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

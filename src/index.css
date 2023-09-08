@@ -75,6 +75,7 @@ body {
   background-image: url("src/assets/banner-bg.png");
   background-size: cover;
   background-attachment: fixed;
+  Font-family: Consolas, monaco, monospace !important;
   color: #fff !important;
   text-shadow:
     /* White glow */
@@ -83,7 +84,32 @@ body {
     0 0 1.2px #fff !important;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+body::-webkit-scrollbar {
+  width: 8px;
+  /* Tamaño del scroll en vertical */
+  height: 8px;
+  /* Tamaño del scroll en horizontal */
+
+  /* Ocultar scroll */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
 }

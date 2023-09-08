@@ -36,14 +36,30 @@ export default function Projects() {
     return (
         <div className={projectStyle.containerProject}>
             <section className={projectStyle.projects} id="portfolio">
+                <h1 className="text-center">{t("translations.title")}</h1>
+
                 <Container>
                     <Row>
                         <Col>
-                            <h1>{t("translations.title")}</h1>
+                            <h4 className="text-center">front-end</h4>
                             <Row>
-                                {projects.map((project, index) => {
-                                    return <ProjectsCard key={index} {...project} />;
-                                })}
+                                {
+                                    projects.map((project, index) => {
+                                        return <ProjectsCard key={index} {...project} />;
+                                    })
+                                }
+                            </Row>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <h4 className="text-center">back-end</h4>
+                            <Row>
+                                {
+                                    projects.map((project, index) => {
+                                        return <ProjectsCard key={index} {...project} />;
+                                    })
+                                }
                             </Row>
                         </Col>
                     </Row>

@@ -17,12 +17,13 @@
 
 .cardResume {
     width: 100%;
+    border: 1px solid rgb(255, 255, 255) !important;
     background-color: rgba(21, 21, 21, .7) !important;
-    border-radius: 64px;
-    -webkit-border-radius: 64px;
-    -moz-border-radius: 64px;
-    -ms-border-radius: 64px;
-    -o-border-radius: 64px;
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
     padding: 60px 50px;
 
     color: #fff !important;

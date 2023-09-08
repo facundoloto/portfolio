@@ -22,7 +22,7 @@ export default function Header() {
               <div>
                 <a href="https://github.com/facundoloto" target="blank" className="text-dark" ><img src="src/assets/image/icons8-github-2-50.png" /></a>
                 <a href="mailto:lotofacundo6@gmail.com" target="blank" className="text-dark"><img src="src/assets/image/icons8-google-plus-50.png" /></a>
-                <a href="https://www.linkedin.com/in/facundo-emanuel-loto-496384177/" target="blank" className="text-dark"><img src="src/assets/image/icons8-linkedin-rodeado-de-círculo-50.png" /></a>
+                <a href='www.linkedin.com/in/facundo-loto-496384177' target="blank" className="text-dark"><img src="src/assets/image/icons8-linkedin-rodeado-de-círculo-50.png" /></a>
               </div>
             </div>
 

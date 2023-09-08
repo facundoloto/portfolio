@@ -1,5 +1,5 @@
 .colorNav {
-  background-color: rgba(44, 44, 44, 0.4);
+  background-color: rgba(21, 21, 21, .8) !important;
   /* opacity: 0.5; see the background through the hbox */
 }
 
