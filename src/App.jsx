@@ -7,7 +7,7 @@ import "./App.css";
 
 const Loader = lazy(() => import("./components/Loader/Loader"));
 const Header = lazy(() => import("./components/header/Header"));
-const About = lazy(() => import("./components/about/About"));
+const About = lazy(() => import("./components/about/about"));
 const Resume = lazy(() => import("./components/resume/Resume"));
 const Skill = lazy(() => import("./components/skills/Skill"));
 const Project = lazy(() => import("./components/project/Projects"));
@@ -16,7 +16,7 @@ const Footer = lazy(() => import("./components/footer/Footer"));
 
 function App() {
   const { setLanguage } = useLanguageStore();
-  const timeFade = 1800;
+  const timeFade = 1700;
   const animation = "fade-up";
   setLanguage(
     localStorage.getItem("language") ? localStorage.getItem("language") : "en"
