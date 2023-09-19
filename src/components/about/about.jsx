@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import data from './../../Data/personaInformation.json'; // Importa el archivo JSON
+import data from '../../Data/personaInformation.json'; // Importa el archivo JSON
 import profile from "../../assets/image/profile1.jpg"
 import aboutStyle from './about.module.css'
 import "bootstrap/dist/css/bootstrap.min.css";
