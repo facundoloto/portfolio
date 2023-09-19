@@ -1,10 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { Col, Container, Row, Tab } from "react-bootstrap";
-// Project Image
 import rickAndMorty from "./../../assets/image/rym.jpeg";
 import pokemon from "./../../assets/image/pokeapi.jpg";
 import bitcoin from "./../../assets/image/bitcoin.png";
-import ProjectsCard from "./ProjectsCard";
+import ProjectsCard from "./projectsCard";
 import './project.css';
 
 export default function Projects({ typeFade, duration }) {
