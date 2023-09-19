@@ -1,7 +1,7 @@
 {
     "skill": [
         {
-            "image": "./src/assets/image/js.png",
+            "image": "./../../assets/image/js.png",
             "title": "Javascript"
         },
         {
@@ -9,11 +9,11 @@
             "title": "node.js"
         },
         {
-            "image": "./src/assets/image/react-icon.png",
+            "image": "../src/assets/image/react-icon.png",
             "title": "react.js"
         },
         {
-            "image": "./src/assets/image/mysql.png",
+            "image": "../src/assets/image/mysql.png",
             "title": "MySQL"
         },
         {
