@@ -1,20 +1,27 @@
-import React from "react";
-import { Col } from "react-bootstrap";
-import projectStyle from "./project.module.css";
+import "./project.css";
 
 function ProjectsCard({ title, description, img, link }) {
     return (
         <>
-            <Col sm={6} md={4}>
-                <div className={projectStyle.projectImageBox}>
-                    <img src={img} alt="project" />
-                    <div className={projectStyle.text}>
-                        <h3>{title}</h3>
-                        <p>{description}</p>
-                        <a href={link} target="_blank"><button type="button" class="btn btn-sm btn-secondary">View</button></a>
-                    </div>
+            <div className="card text-center bg-dark">
+                <div className="overflow">
+                    <img src={img} alt="a wallpaper" className="card-img-top" />
                 </div>
-            </Col>
+                <div className="card-body text-light">
+                    <h4 className="card-title">{title}</h4>
+                    <p className="card-text text-secondary">
+                        {description}
+                    </p>
+                    <a
+                        href={link ? link : "#!"}
+                        target="_blank"
+                        className="btn btn-outline-secondary border-0"
+                        rel="noreferrer"
+                    >
+                        Go to {title}
+                    </a>
+                </div>
+            </div>
         </>
     );
 }

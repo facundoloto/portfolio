@@ -11,4 +11,9 @@
   display: flex !important;
   justify-content: left;
   align-self: flex-end;
+
+}
+
+.colorNav .navbar-icon {
+  color: lightcyan !important;
 }

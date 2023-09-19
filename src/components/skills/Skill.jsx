@@ -5,7 +5,7 @@ import Carousel from "react-multi-carousel";
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 
-export default function Skill() {
+export default function Skill({ typeFade, duration }) {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -28,34 +28,36 @@ export default function Skill() {
     const { t, i18n } = useTranslation("customNavbar");
 
     return (
-        <div className={skillStyles.containSkill} data-aos="fade-up" data-aos-duration="1500">
+        <>
+            <div data-aos={typeFade} data-aos-duration={duration}>
+                <div className={skillStyles.containSkill} >
+                    <Container>
+                        <h1 className="text-center" id="skill">{t("translations.skill")}</h1>
+                        {/* Row */}
+                        <Row>
+                            {/* Col */}
+                            <Col>
+                                {/* Skills Carousel */}
+                                <Carousel
+                                    responsive={responsive}
+                                    infinite={true}
+                                    className={skillStyles.skillSlider}
+                                >
+                                    {
+                                        skill.skill.map((item, index) => (
 
-
-            <Container>
-                <h1 className="text-center" id="skill">{t("translations.skill")}</h1>
-                {/* Row */}
-                <Row>
-                    {/* Col */}
-                    <Col>
-                        {/* Skills Carousel */}
-                        <Carousel
-                            responsive={responsive}
-                            infinite={true}
-                            className={skillStyles.skillSlider}
-                        >
-                            {
-                                skill.skill.map((item, index) => (
-
-                                    <div className={skillStyles.skillItem} key={index}>
-                                        <img src={item.image} alt="" />
-                                        <h5>{item.title}</h5>
-                                    </div>
-                                ))
-                            }
-                        </Carousel>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+                                            <div className={skillStyles.skillItem} key={index}>
+                                                <img src={item.image} alt="" />
+                                                <h5>{item.title}</h5>
+                                            </div>
+                                        ))
+                                    }
+                                </Carousel>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+            </div>
+        </>
     )
 };

@@ -1,5 +1,6 @@
 .containSkill {
     margin-top: 6rem;
+    margin-bottom: 6rem;
     width: 100%;
     height: 100%;
     display: flex;
@@ -27,4 +28,16 @@
     width: 160px;
     height: 130px;
     margin: 0 auto 15px auto;
+}
+
+@media (max-width: 768px) {
+    .skillSlider .skillItem img {
+        width: 120px;
+        height: 100px;
+        margin: 0 auto 15px auto;
+    }
+
+    .skillItem h1 {
+        font-size: 1em;
+    }
 }

@@ -5,10 +5,9 @@ import rickAndMorty from "./../../assets/image/rym.jpeg";
 import pokemon from "./../../assets/image/pokeapi.jpg";
 import bitcoin from "./../../assets/image/bitcoin.png";
 import ProjectsCard from "./ProjectsCard";
-import projectStyle from "./project.module.css";
+import './project.css';
 
-
-export default function Projects() {
+export default function Projects({ typeFade, duration }) {
     const { t, i18n } = useTranslation("portfolio");
 
     const projects = [
@@ -34,38 +33,52 @@ export default function Projects() {
 
     // Return JSX
     return (
-        <div className={projectStyle.containerProject}>
-            <section className={projectStyle.projects} id="portfolio">
+        <>
+            <div data-aos={typeFade} data-aos-duration={duration}>
                 <h1 className="text-center">{t("translations.title")}</h1>
 
-                <Container>
-                    <Row>
-                        <Col>
-                            <h4 className="text-center">front-end</h4>
+                <div className="container d-flex justify-content-center align-items-center h-100">
+                    <div className="row">
+                        {projects.map(({ title, description, img, link }, index) => (
+                            <div className="col-md-4" key={index}>
+                                <ProjectsCard img={img} title={title} link={link} description={description} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+                {/* <section className={projectStyle.projects} id="portfolio">
+                        
+
+                        <Container>
                             <Row>
-                                {
-                                    projects.map((project, index) => {
-                                        return <ProjectsCard key={index} {...project} />;
-                                    })
-                                }
+                                <Col>
+                                    <h4 className="text-center">front-end</h4>
+                                    <Row>
+                                        {
+                                            projects.map((project, index) => {
+                                                return <ProjectsCard key={index} {...project} />;
+                                            })
+                                        }
+                                    </Row>
+                                </Col>
                             </Row>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <h4 className="text-center">back-end</h4>
                             <Row>
-                                {
-                                    projects.map((project, index) => {
-                                        return <ProjectsCard key={index} {...project} />;
-                                    })
-                                }
+                                <Col>
+                                    <h4 className="text-center">back-end</h4>
+                                    <Row>
+                                        {
+                                            projects.map((project, index) => {
+                                                return <ProjectsCard key={index} {...project} />;
+                                            })
+                                        }
+                                    </Row>
+                                </Col>
                             </Row>
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-        </div>
+                        </Container>
+                    </section> */}
+            </div>
+        </>
+
     );
 }
 
