@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import skillStyles from "./skils.module.css";
-import skill from './../../Data/skill.json'; // Importa el archivo JSON
+import skill from '../../Data/skill'; // Importa el archivo JSON
 import Carousel from "react-multi-carousel";
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
@@ -44,7 +44,7 @@ export default function Skill({ typeFade, duration }) {
                                     className={skillStyles.skillSlider}
                                 >
                                     {
-                                        skill.skill.map((item, index) => (
+                                        skill.map((item, index) => (
 
                                             <div className={skillStyles.skillItem} key={index}>
                                                 <img src={item.image} alt="" />

@@ -72,7 +72,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-image: url("./src/assets/banner-bg.png");
+  background-image: url("./banner-bg.png");
   background-size: cover;
   background-attachment: fixed;
   Font-family: Consolas, monaco, monospace !important;
