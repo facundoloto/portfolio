@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import gorillaz from "./../../assets/image/gorillaz.jpg";
-import instagram from "./../../assets/image/instagram.jpg";
+import instagram from "./../../assets/image/Instagram.jpg";
 import rym from "./../../assets/image/rym.jpeg";
 import pokemon from "./../../assets/image/pokeapi.jpg";
 import node from './../../assets/image/node.png';
