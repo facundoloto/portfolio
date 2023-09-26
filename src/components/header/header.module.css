@@ -108,6 +108,7 @@
   }
 
   .title h1 {
+    border-right: none;
     animation: none;
     animation: none;
   }

@@ -1,6 +1,13 @@
 {
     "translations": {
         "title": "Portfolio",
-        "pokeApi": "AppWeb that first shows random pokemons and then the user can filter by the regions."
+        "pokeApi": "AppWeb that first shows random pokemons and then the user can filter by the regions.",
+        "gorillazWiki": "App Web where you can see information about the band gorillaz",
+        "gorillazWikiBack": "It was my first api made in typescript, It works for get information about the band gorillaz",
+        "rym": "page where use api ricky and morty, you can see personal information about all characters",
+        "instagram": "I've been working in this demo of instagram whit this I've tried apply new knowledge in front-end",
+        "instagramBack": "I've done this api-rest in node.js with typescript, I implemented the used of tests and implement token to auth furthermore I used aws3 for save images.,",
+        "contact": "I've been programming this api in java with spring and spring boot just for learn the lenguage in context web back-end",
+        "alkemyBack": "Back-end made to get into alkemy, It was an api with login and a crud with save products"
     }
 }
