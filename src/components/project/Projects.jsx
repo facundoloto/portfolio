@@ -47,25 +47,25 @@ export default function Projects({ typeFade, duration }) {
             title: "Instagram-Demo",
             description: t("translations.instagramBack"),
             img: instagram,
-            repo: "https://github.com/facundoloto/pyfi.git"
+            link: "https://github.com/facundoloto/pyfi.git"
         },
         {
             title: "Contact",
             description: t("translations.contact"),
             img: java,
-            repo: "https://github.com/facundoloto/contacts.git"
+            link: "https://github.com/facundoloto/contacts.git"
         },
         {
             title: "Gorillaz-wiki",
             description: t("translations.gorillazWikiBack"),
             img: gorillaz,
-            repo: "https://github.com/facundoloto/api-gorillaz"
+            link: "https://github.com/facundoloto/api-gorillaz"
         },
         {
             title: "Alkemy-reto-back",
             description: t("translations.alkemyBack"),
             img: node,
-            repo: "https://github.com/facundoloto/Alkemy-Back-end.git"
+            link: "https://github.com/facundoloto/Alkemy-Back-end.git"
         },
     ];
 
