@@ -16,14 +16,14 @@ export default function Projects({ typeFade, duration }) {
             title: "Instagram Demo",
             description: t("translations.instagram"),
             img: instagram,
-            link: "https://cute-daifuku-0bc243.netlify.app/",
+            link: "https://magnificent-lolly-8cd753.netlify.app/login",
             repo: "https://github.com/facundoloto/react-pyfi"
         },
         {
             title: "Gorillaz-wiki",
             description: t("translations.gorillazWiki"),
             img: gorillaz,
-            link: "https://cute-daifuku-0bc243.netlify.app/",
+            link: "https://coruscating-figolla-08b424.netlify.app/",
             repo: "https://cute-daifuku-0bc243.netlify.app/"
         },
         {
@@ -31,14 +31,14 @@ export default function Projects({ typeFade, duration }) {
             description: t("translations.rym"),
             img: rym,
             link: "https://fluffy-rickandmorty-0980c7.netlify.app/",
-            repo: "https://fluffy-rickandmorty-0980c7.netlify.app/",
+            repo: "https://github.com/facundoloto/rick-and-morty-react",
         },
         {
             title: "PokeApi",
             description: t("translations.pokeApi"),
             img: pokemon,
             link: "https://inquisitive-queijadas-fd80a3.netlify.app/",
-            repo: "https://inquisitive-queijadas-fd80a3.netlify.app/"
+            repo: "https://github.com/facundoloto/poke-api-react"
         }
     ];
 
