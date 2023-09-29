@@ -16,7 +16,7 @@ export default function Projects({ typeFade, duration }) {
             title: "Instagram Demo",
             description: t("translations.instagram"),
             img: instagram,
-            link: "https://magnificent-lolly-8cd753.netlify.app/login",
+            link: "https://instagrampyfi.netlify.app/",
             repo: "https://github.com/facundoloto/react-pyfi"
         },
         {
