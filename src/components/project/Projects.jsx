@@ -73,7 +73,7 @@ export default function Projects({ typeFade, duration }) {
     return (
         <>
             <div data-aos={typeFade} data-aos-duration={duration}>
-                <h1 className="text-center">{t("translations.title")}</h1>
+                <h1 className="text-center" id="portfolio">{t("translations.title")}</h1>
 
                 <div className="container d-flex justify-content-center align-items-center h-100">
                     <div className="row">
