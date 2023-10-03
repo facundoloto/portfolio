@@ -37,13 +37,7 @@ export default function Header({ typeFade, duration }) {
             </div>
 
           </div>
-          {/* <div className={headerStyle.scrollBtn}>
-            <button><a href="#about" ><img src="src/assets/image/button-scroll.png" id="scroll" /></a></button>
-          </div> */}
-
         </div>
-
-
       </div>
     </>
   );
