@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import navStyle from "./navbar.module.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-const pdfUrl = './cv.pdf'; // Replace with the actual URL or file path
+const pdfUrl = './Facundo_Loto_Dev.pdf'; // Replace with the actual URL or file path
 export default function NavBar() {
   const { t, i18n } = useTranslation("customNavbar");
 
