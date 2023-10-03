@@ -1,7 +1,7 @@
 {
     "translations": {
         "title": "Sobre mi",
-        "aboutMe": "Soy un desarrollador full-stack en javascript, uso react y node y tengo experiencia trabajando con ellos. Actualmente estoy aprendiendo java con spring boot, soy alguien a quien le encanta programar y encontrar soluciones para cada problema. que pueda tener, sobre mi personalidad, soy responsable, dedicada y amigable, y si alguien necesita ayuda, haré todo lo posible para ayudarla.",
+        "aboutMe": "¡Hola! Soy facundo loto, desarrollador full stack,aprendi programación pero solo lo básico en la escuela, en el 2018 intenté aprender nuevamente con un curso de algoritmos y java/mysql, en el 2020 tomé la decisión de estudiar para conseguir un trabajo como desarrollador con javascript tanto como fron-end pero mas en back-end, también estudié en la universidad pero solo el primer año en la carrera de tecnicatura de programación.",
         "location": "Localidad",
         "age": "Edad",
         "interest": "Intereses"
