@@ -37,7 +37,7 @@ const resources = {
 // Initialize i18n
 i18next.use(initReactI18next).init({
   debug: false,
-  lng: localStorage.getItem("language"), // Get the selected language from Zustand
+  lng: "en", // Get the selected language from Zustand
   resources,
   interpolation: {
     escapeValue: false, // React already escapes variables, so no need to escape here

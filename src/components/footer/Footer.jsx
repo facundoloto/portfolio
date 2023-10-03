@@ -16,7 +16,7 @@ export default function Footer() {
                     <a href="mailto:lotofacundo6@gmail.com" target="blank" className='me-4 text-reset'>
                         <MDBIcon fab icon="google" />
                     </a>
-                    <a href='www.linkedin.com/in/facundo-loto-496384177' target="blank" className='me-4 text-reset'>
+                    <a href='https://www.linkedin.com/in/facundo-loto-496384177' target="blank" className='me-4 text-reset'>
                         <MDBIcon fab icon="linkedin" />
                     </a>
                     <a href="https://github.com/facundoloto" target="blank" className='me-4 text-reset'>

@@ -15,12 +15,8 @@ const Footer = lazy(() => import("./components/footer/Footer"));
 
 
 function App() {
-  const { setLanguage } = useLanguageStore();
   const timeFade = 1700;
   const animation = "fade-up";
-  setLanguage(
-    localStorage.getItem("language") ? localStorage.getItem("language") : "en"
-  );
   return (
     <>
       <Suspense
@@ -29,6 +25,7 @@ function App() {
             <Loader isLoading={true} />
           </div>}>
         <I18nextProvider i18next={i18next}>
+
           <Header typeFade={animation} duration={timeFade} />
           <About typeFade={animation} duration={timeFade} />
           <Resume typeFade={animation} duration={timeFade} />
@@ -36,6 +33,7 @@ function App() {
           <Project typeFade={animation} duration={timeFade} />
           <Footer typeFade={animation} duration={timeFade} />
         </I18nextProvider>
+
       </Suspense>
 
     </>
