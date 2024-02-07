@@ -1,7 +1,7 @@
 {
     "translations": {
         "title": "Sobre mi",
-        "aboutMe": "¡Hola! Soy facundo loto, desarrollador full stack,aprendi programación pero solo lo básico en la escuela, en el 2018 intenté aprender nuevamente con un curso de algoritmos y java/mysql, en el 2020 tomé la decisión de estudiar para conseguir un trabajo como desarrollador con javascript tanto como fron-end pero mas en back-end, también estudié en la universidad pero solo el primer año en la carrera de tecnicatura de programación.",
+        "aboutMe": "¡Hola! Soy facundo loto, desarrollador full stack, estoy en el mundo de la programación desde el 2018 cuando hice un curso de algoritmos y java/mysql, en el 2020 tomé la decisión de estudiar para conseguir un trabajo como desarrollador, también estudié en la universidad pero solo el primer año en la carrera de tecnicatura de programación.",
         "location": "Localidad",
         "age": "Edad",
         "interest": "Intereses"

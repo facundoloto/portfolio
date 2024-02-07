@@ -8,7 +8,7 @@ import "./App.css";
 const Loader = lazy(() => import("./components/Loader/Loader"));
 const Header = lazy(() => import("./components/header/Header"));
 const About = lazy(() => import("./components/about/about"));
-const Resume = lazy(() => import("./components/resume/Resume"));
+// const Resume = lazy(() => import("./components/resume/Resume"));
 const Skill = lazy(() => import("./components/skills/Skill"));
 const Project = lazy(() => import("./components/project/Projects"));
 const Footer = lazy(() => import("./components/footer/Footer"));
@@ -28,7 +28,7 @@ function App() {
 
           <Header typeFade={animation} duration={timeFade} />
           <About typeFade={animation} duration={timeFade} />
-          <Resume typeFade={animation} duration={timeFade} />
+          {/* <Resume typeFade={animation} duration={timeFade} /> */}
           <Skill typeFade={animation} duration={timeFade} />
           <Project typeFade={animation} duration={timeFade} />
           <Footer typeFade={animation} duration={timeFade} />

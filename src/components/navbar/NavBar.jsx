@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import navStyle from "./navbar.module.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-const pdfUrl = './Facundo_Loto_Dev.pdf'; // Replace with the actual URL or file path
+const pdfUrl = './Loto_Facundo_Developer.pdf'; // Replace with the actual URL or file path
 export default function NavBar() {
   const { t, i18n } = useTranslation("customNavbar");
 
@@ -32,9 +32,6 @@ export default function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#about">{t("translations.about")}</Nav.Link>
-            <Nav.Link href="#resume">
-              {t("translations.experience")}
-            </Nav.Link>
             <Nav.Link href="#skill">{t("translations.skill")}</Nav.Link>
             <Nav.Link href="#portfolio">{t("translations.portfolio")}</Nav.Link>
             <Nav.Link href={pdfUrl} download>{t("translations.cv")}</Nav.Link>
