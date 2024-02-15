@@ -4,6 +4,7 @@
     "aboutMe": "Hello there! My name is facundo loto and I'm a full-stack developer, I've been studying programmig since 2018 when I did a course of algorithms and java/mysql, in 2020 I took the decision to study the necesary to get a job as dev for that reason I joined at the university but just the first year in the carrer technical programmig, I've got experience developing in node/react and Java with Spring boot.",
     "location": "Location",
     "age": "Age",
-    "interest": "Interests"
+    "interest": "Interests",
+    "video": "eng"
   }
 }
