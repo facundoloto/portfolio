@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player';
 import { useTranslation } from "react-i18next";
-import es from './../../assets/video/me_es.mp4';
-import eng from './../../assets/video/me_eng.mp4';
+import es from './../../assets/video/es.mp4';
+import eng from './../../assets/video/eng.mp4';
 
 const VideoPlayer = () => {
     // const videoUrl = './src/assets/video/me_';
