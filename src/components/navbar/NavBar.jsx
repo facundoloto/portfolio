@@ -6,9 +6,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import navStyle from "./navbar.module.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
-const pdfUrl = './Loto_Facundo_Developer.pdf'; // Replace with the actual URL or file path
+const pdfES = './Loto_Facundo_Developer.pdf'; // Replace with the actual URL or file path
+const pdfEN = './Loto_Facundo_Dev_eng.pdf'; // Replace with the actual URL or file path
+
 export default function NavBar() {
   const { t, i18n } = useTranslation("customNavbar");
+  // const { , i18n } = useTranslation("about");
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng); // Change language
@@ -34,7 +37,7 @@ export default function NavBar() {
             <Nav.Link href="#about">{t("translations.about")}</Nav.Link>
             <Nav.Link href="#skill">{t("translations.skill")}</Nav.Link>
             <Nav.Link href="#portfolio">{t("translations.portfolio")}</Nav.Link>
-            <Nav.Link href={pdfUrl} download>{t("translations.cv")}</Nav.Link>
+            <Nav.Link href={t("translations.version") == "eng" ? pdfEN : pdfES} download>{t("translations.cv")}</Nav.Link>
 
           </Nav>
           <Nav>

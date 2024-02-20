@@ -13,6 +13,13 @@ export default function Projects({ typeFade, duration }) {
     const { t, i18n } = useTranslation("portfolio");
     const projectsFront = [
         {
+            title: "Contacts Challenge React-Java",
+            description: t("translations.contactFront"),
+            img: java,
+            link: "https://enchanting-froyo-dab782.netlify.app/auth/login",
+            repo: "https://github.com/facundoloto/front-contact-challenge"
+        },
+        {
             title: "Instagram Demo",
             description: t("translations.instagram"),
             img: instagram,
@@ -47,25 +54,29 @@ export default function Projects({ typeFade, duration }) {
             title: "Instagram-Demo",
             description: t("translations.instagramBack"),
             img: instagram,
-            link: "https://github.com/facundoloto/pyfi.git"
+            link: "",
+            repo: "https://github.com/facundoloto/pyfi.git"
         },
         {
             title: "Contact",
             description: t("translations.contact"),
             img: java,
-            link: "https://github.com/facundoloto/contacts.git"
+            link: "",
+            repo: "https://github.com/facundoloto/contacts.git"
         },
         {
             title: "Gorillaz-wiki",
             description: t("translations.gorillazWikiBack"),
             img: gorillaz,
-            link: "https://github.com/facundoloto/api-gorillaz"
+            link: "",
+            repo: "https://github.com/facundoloto/api-gorillaz"
         },
         {
             title: "Alkemy-reto-back",
             description: t("translations.alkemyBack"),
             img: node,
-            link: "https://github.com/facundoloto/Alkemy-Back-end.git"
+            link: "",
+            repo: "https://github.com/facundoloto/Alkemy-Back-end.git"
         },
     ];
 
@@ -79,9 +90,9 @@ export default function Projects({ typeFade, duration }) {
                     <div className="row">
                         <h4 className="text-center">Fron-End</h4>
 
-                        {projectsFront.map(({ title, description, img, link }, index) => (
+                        {projectsFront.map(({ title, description, img, link, repo }, index) => (
                             <div className="col-md-4" key={index}>
-                                <ProjectsCard img={img} title={title} link={link} description={description} />
+                                <ProjectsCard img={img} title={title} repo={repo} link={link} description={description} />
                             </div>
                         ))}
                     </div>
@@ -91,9 +102,9 @@ export default function Projects({ typeFade, duration }) {
                     <div className="row">
                         <h4 className="text-center">Back-End</h4>
 
-                        {projectsBack.map(({ title, description, img, link }, index) => (
+                        {projectsBack.map(({ title, description, img, repo, link }, index) => (
                             <div className="col-md-4" key={index}>
-                                <ProjectsCard img={img} title={title} link={link} description={description} />
+                                <ProjectsCard img={img} title={title} repo={repo} link={link} description={description} />
                             </div>
                         ))}
                     </div>

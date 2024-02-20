@@ -7,6 +7,7 @@
         "rym": "page where use api ricky and morty, you can see personal information about all characters",
         "instagram": "I've been working in this demo of instagram whit this I've tried apply new knowledge in front-end",
         "instagramBack": "I've done this api-rest in node.js with typescript, I implemented the used of tests and implement token to auth furthermore I used aws3 for save images.,",
+        "contactFront": "Front-end made in react for use back-end in an api made in java for a challenges about save contacts",
         "contact": "I've been programming this api in java with spring and spring boot just for learn the lenguage in context web back-end",
         "alkemyBack": "Back-end made to get into alkemy, It was an api with login and a crud with save products"
     }

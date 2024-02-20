@@ -5,6 +5,7 @@
     "experience": "Resume",
     "skill": "Skills",
     "portfolio": "Projects",
-    "cv": "Download Resume"
+    "cv": "Resume",
+    "version": "eng"
   }
 }

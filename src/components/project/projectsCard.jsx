@@ -1,6 +1,6 @@
 import "./project.css";
 
-function ProjectsCard({ title, description, img, link }) {
+function ProjectsCard({ title, description, img, repo, link }) {
     return (
         <>
             <div className="card text-center bg-dark">
@@ -19,6 +19,14 @@ function ProjectsCard({ title, description, img, link }) {
                         rel="noreferrer"
                     >
                         Go to {title}
+                    </a>
+                    <a
+                        href={repo}
+                        target="_blank"
+                        className="btn btn-outline-secondary border-0"
+                        rel="noreferrer"
+                    >
+                        Go to github {title}
                     </a>
                 </div>
             </div>

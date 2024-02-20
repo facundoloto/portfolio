@@ -7,6 +7,7 @@
         "rym": "Esta pagina consume la api personal de rick and morty y muestra informacion de todos los personajes",
         "instagram": "He estado trabajando en este demo de instagram para aplicar nuevos conocimientos acerca del front-end",
         "instagramBack": "api echa en typescript con este proyecto pude aprender y implementar acerda de tests, jwt y el uso de aws3 para guardar imagenes",
+        "contactFront": "front-end echop para usar una api echa en java donde se guarda contactos",
         "contact": "con este proyecto estoy aprendiendo el uso de java y spring para el ambito web implementando todos mis conocimientos previos",
         "alkemyBack": "back-end echo como reto para el ingreso a alkemy, se trataba de una api con login y crud para productos"
     }
