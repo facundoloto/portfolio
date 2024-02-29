@@ -11,73 +11,47 @@ import './project.css';
 export default function Projects({ typeFade, duration }) {
 
     const { t, i18n } = useTranslation("portfolio");
-    const projectsFront = [
+    const projectsData = [
         {
             title: "Contacts Challenge React-Java",
             description: t("translations.contactFront"),
             img: java,
             link: "https://enchanting-froyo-dab782.netlify.app/auth/login",
-            repo: "https://github.com/facundoloto/front-contact-challenge"
+            repoFront: "https://github.com/facundoloto/front-contact-challenge",
+            repoBack: "https://github.com/facundoloto/contacts.git",
         },
         {
             title: "Instagram Demo",
             description: t("translations.instagram"),
             img: instagram,
             link: "https://instagrampyfi.netlify.app/",
-            repo: "https://github.com/facundoloto/react-pyfi"
+            repoFront: "https://github.com/facundoloto/react-pyfi",
+            repoBack: "https://github.com/facundoloto/pyfi.git",
         },
         {
             title: "Gorillaz-wiki",
             description: t("translations.gorillazWiki"),
             img: gorillaz,
             link: "https://coruscating-figolla-08b424.netlify.app/",
-            repo: "https://cute-daifuku-0bc243.netlify.app/"
+            repoFront: "https://cute-daifuku-0bc243.netlify.app/",
+            repoBack: "https://github.com/facundoloto/api-gorillaz",
         },
         {
             title: "Rick And Morty",
             description: t("translations.rym"),
             img: rym,
             link: "https://fluffy-rickandmorty-0980c7.netlify.app/",
-            repo: "https://github.com/facundoloto/rick-and-morty-react",
+            repoFront: "https://github.com/facundoloto/rick-and-morty-react",
+            repoBack: ""
         },
         {
             title: "PokeApi",
             description: t("translations.pokeApi"),
             img: pokemon,
             link: "https://inquisitive-queijadas-fd80a3.netlify.app/",
-            repo: "https://github.com/facundoloto/poke-api-react"
+            repoFront: "https://github.com/facundoloto/poke-api-react",
+            repoBack: ""
         }
-    ];
-
-    const projectsBack = [
-        {
-            title: "Instagram-Demo",
-            description: t("translations.instagramBack"),
-            img: instagram,
-            link: "",
-            repo: "https://github.com/facundoloto/pyfi.git"
-        },
-        {
-            title: "Contact",
-            description: t("translations.contact"),
-            img: java,
-            link: "",
-            repo: "https://github.com/facundoloto/contacts.git"
-        },
-        {
-            title: "Gorillaz-wiki",
-            description: t("translations.gorillazWikiBack"),
-            img: gorillaz,
-            link: "",
-            repo: "https://github.com/facundoloto/api-gorillaz"
-        },
-        {
-            title: "Alkemy-reto-back",
-            description: t("translations.alkemyBack"),
-            img: node,
-            link: "",
-            repo: "https://github.com/facundoloto/Alkemy-Back-end.git"
-        },
     ];
 
     // Return JSX
@@ -88,31 +62,16 @@ export default function Projects({ typeFade, duration }) {
 
                 <div className="container d-flex justify-content-center align-items-center h-100">
                     <div className="row">
-                        <h4 className="text-center">Fron-End</h4>
-
-                        {projectsFront.map(({ title, description, img, link, repo }, index) => (
-                            <div className="col-md-4" key={index}>
-                                <ProjectsCard img={img} title={title} repo={repo} link={link} description={description} />
-                            </div>
-                        ))}
+                        {
+                            projectsData.map(({ title, description, img, link, repoFront, repoBack }, index) => (
+                                <div className="col-md-4" key={index}>
+                                    <ProjectsCard img={img} title={title} repoFront={repoFront} repoBack={repoBack} link={link} description={description} />
+                                </div>
+                            ))}
                     </div>
                 </div>
-
-                <div className="container d-flex justify-content-center align-items-center h-100">
-                    <div className="row">
-                        <h4 className="text-center">Back-End</h4>
-
-                        {projectsBack.map(({ title, description, img, repo, link }, index) => (
-                            <div className="col-md-4" key={index}>
-                                <ProjectsCard img={img} title={title} repo={repo} link={link} description={description} />
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
             </div>
         </>
-
     );
 }
 

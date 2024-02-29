@@ -1,6 +1,7 @@
+import { MDBIcon } from 'mdb-react-ui-kit';
 import "./project.css";
 
-function ProjectsCard({ title, description, img, repo, link }) {
+function ProjectsCard({ title, description, img, link, repoFront, repoBack }) {
     return (
         <>
             <div className="card text-center bg-dark">
@@ -21,13 +22,23 @@ function ProjectsCard({ title, description, img, repo, link }) {
                         Go to {title}
                     </a>
                     <a
-                        href={repo}
+                        href={repoFront}
                         target="_blank"
                         className="btn btn-outline-secondary border-0"
                         rel="noreferrer"
                     >
-                        Go to github {title}
+                        Front-End <MDBIcon fab icon="github" />
                     </a>
+                    {repoBack &&
+                        <a
+                            href={repoBack ? repoBack : "#!"}
+                            target="_blank"
+                            className="btn btn-outline-secondary border-0"
+                            rel="noreferrer"
+                        >
+                            Back-End <MDBIcon fab icon="github" />
+                        </a>
+                    }
                 </div>
             </div>
         </>
