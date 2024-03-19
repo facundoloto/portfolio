@@ -41,7 +41,7 @@ export default function Projects({ typeFade, duration }) {
             description: t("translations.gorillazWiki"),
             img: gorillaz,
             link: "https://coruscating-figolla-08b424.netlify.app/",
-            repoFront: "https://cute-daifuku-0bc243.netlify.app/",
+            repoFront: "https://github.com/facundoloto/gorillaz-front",
             repoBack: "https://github.com/facundoloto/api-gorillaz",
         },
         {

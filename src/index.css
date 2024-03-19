@@ -9,7 +9,7 @@ body {
   font-weight: 100;
   overflow-x: hidden;
   position: relative;
-  background-image: url("./assets/mario.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/mario.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: #fff !important;
