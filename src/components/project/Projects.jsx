@@ -3,7 +3,7 @@ import gorillaz from "./../../assets/image/gorillaz.jpg";
 import instagram from "./../../assets/image/Instagram.jpg";
 import rym from "./../../assets/image/rym.jpeg";
 import pokemon from "./../../assets/image/pokeapi.jpg";
-import node from './../../assets/image/node.png';
+import foxy from './../../assets/image/foxy.png';
 import java from "./../../assets/image/java.png"
 import ProjectsCard from "./projectsCard";
 import './project.css';
@@ -12,6 +12,14 @@ export default function Projects({ typeFade, duration }) {
 
     const { t, i18n } = useTranslation("portfolio");
     const projectsData = [
+        {
+            title: "Foxy(Catch Apples)",
+            description: t("translations.foxy"),
+            img: foxy,
+            link: "https://exquisite-dragon-86b3ca.netlify.app/",
+            repoFront: "",
+            repoBack: "https://github.com/facundoloto/CatchApple",
+        },
         {
             title: "Contacts Challenge React-Java",
             description: t("translations.contactFront"),

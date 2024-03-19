@@ -1,6 +1,7 @@
 {
     "translations": {
         "title": "Portfolio",
+        "foxy": "Foxy is a game I made using godot with gdscript. you shoud try to catch as many apples as they fall but be careful because you can touch the thorns and we don't want foxy to get hurt🤣",
         "pokeApi": "AppWeb that first shows random pokemons and then the user can filter by the regions.",
         "gorillazWiki": "App Web where you can see information about the band gorillaz",
         "gorillazWikiBack": "It was my first api made in typescript, It works for get information about the band gorillaz",

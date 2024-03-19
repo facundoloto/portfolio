@@ -19,10 +19,6 @@ export default function Header({ typeFade, duration }) {
 
           <div className={headerStyle.mainContain}>
 
-            <div className={headerStyle.heroImg} >
-              <img src={headerImg} alt="herosection" />
-            </div>
-
             <div className={headerStyle.mainAbout}>
               <div className={headerStyle.title}>
                 <h1>{t("translations.title")}</h1>

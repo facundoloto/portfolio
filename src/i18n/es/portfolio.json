@@ -1,6 +1,7 @@
 {
     "translations": {
         "title": "Proyectos",
+        "foxy":"Foxy es un juego que hice usand godot con gdscript trata de atrapar la mayor cantidad de manzana que caen pero con cuidado por que pudes tocar las espinas y no queremos que foxy se lastime🤣",
         "pokeApi": "AppWeb que muestra pokemones al azar y luego el usuario puede filtrar por las regiones.",
         "gorillazWiki": "Web donde puedes ver informacion acerca de la banda gorillaz",
         "gorillazWikiBack": "api echa en typescript para aprender conceptos del lenguage, consume json dentro del proyecto para enviar al cliente",

@@ -6,7 +6,8 @@ import spring from './../assets/image/spring.png';
 import ts from './../assets/image/ts.png';
 import mocha from './../assets/image/mocha.png';
 import java from './../assets/image/java.png';
-
+import docker from './../assets/image/docker.png';
+import godot from './../assets/image/godot.png';
 const skill =
     [
         {
@@ -40,6 +41,14 @@ const skill =
         {
             "image": java,
             "title": "java"
+        },
+        {
+            "image": docker,
+            "title": "docker"
+        },
+        {
+            "image": godot,
+            "title": "godot"
         }
     ]
 
