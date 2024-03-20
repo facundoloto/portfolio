@@ -1,27 +1,25 @@
 .containerAbout {
-    width: 100%;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     /* overflow: hidden; */
 }
 
 
 .about {
-    border: 1px solid rgb(255, 255, 255) !important;
-    background-color: rgba(21, 21, 21, 1);
-    border-radius: 1%;
-    border-radius: 1%;
-    -webkit-border-radius: 1%;
-    -moz-border-radius: 1%;
-    -ms-border-radius: 1%;
-    -o-border-radius: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80vw;
-    height: 100vh;
-    margin: 0 auto;
-    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.profileContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
 }
 
 .profileAbout {
@@ -29,33 +27,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     height: 100%;
 }
 
 .profilePicture {
-    margin-top: 20px;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
+    height:60%;
 }
 
-.profilePicture img,
+.profilePicture
 video {
-    width: 200px;
-    height: 200px;
     border-radius: 10%;
+    align-items: center;
+    
 }
 
-.profileInformation {
-
-    width: 100%;
-    /* Set the width to 50% for equal width columns */
-
-}
 
 /* Style for the lists */
 .listOne ul {
@@ -71,38 +62,21 @@ video {
 }
 
 @media (max-width:768px) {
-    .containerAbout {
-        width: 100%;
-        height: 100%;
-    }
 
     .about {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+    .profilePicture {
         width: 100%;
-        height: 100%;
+        height:80%;
     }
-
-    .profileImg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        float: none;
-    }
-
-    .profileImg img {
-        width: 200px;
-        height: 200px;
-        border-radius: 10%;
-        margin-right: 0;
-        float: none;
-    }
-
-    .profileAbout {
-        width: 80%;
+    .profileAbout, .profileContent{
+        width: 90%;
+        height: 90%;
     }
 }

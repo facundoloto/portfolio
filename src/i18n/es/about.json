@@ -1,7 +1,7 @@
 {
     "translations": {
         "title": "Sobre mi",
-        "aboutMe": "¡Hola! Soy facundo loto, desarrollador full stack, estoy en el mundo de la programación desde el 2018 cuando hice un curso de algoritmos y java/mysql, en el 2020 tomé la decisión de estudiar para conseguir un trabajo como desarrollador, también estudié en la universidad pero solo el primer año en la carrera de tecnicatura de programación.",
+        "aboutMe": "¡Hola! Mi nombre es facundo loto y soy desarrollador full-stack, estudio programación desde el 2018 cuando hice un curso de algoritmos y java/mysql, tomé la decisión de ingresar a la universidad en la carrera de programación en el 2021. Solo hice el primer año lamentablemente , pero me di cuenta de que me encanta programar y resolver desafíos. No importa lo difícil que pueda ser, además tengo experiencia desarrollando en node/react y Java con Spring boot, pero lo más importante es que puedo tener adaptabilidad en cualquier lenguaje o entorno técnico.",
         "location": "Localidad",
         "age": "Edad",
         "interest": "Intereses",

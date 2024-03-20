@@ -15,18 +15,20 @@ export default function About({ typeFade, duration }) {
         <>
             <div data-aos={typeFade} data-aos-duration={duration}>
                 <div className={aboutStyle.containerAbout + " text-light"} >
-                    <h1 className="text-center" id="about">{t("translations.title")}</h1>
 
                     <div className={aboutStyle.about + " " + aboutStyle.border}  >
-
+                    
                         <div className={aboutStyle.profileAbout}>
+
                             <div className={aboutStyle.profileContent}>
+                            <h1 className="text-center" id="about">{t("translations.title")}</h1>
                                 <div className={aboutStyle.profilePicture}>
                                     <VideoPlayer />
                                 </div>
                                 <p className="text-center">
                                     {t("translations.aboutMe")}
                                 </p>
+
                                 <div className={aboutStyle.profileInformation}>
                                     <div className={aboutStyle.listOne}>
                                         <ul>
@@ -36,6 +38,7 @@ export default function About({ typeFade, duration }) {
                                         </ul>
                                     </div>
                                 </div>
+
                             </div>
 
                         </div>
